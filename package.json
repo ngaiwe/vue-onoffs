@@ -1,15 +1,17 @@
 {
-  "name": "vue-onoff",
-  "version": "1.0.0",
+  "name": "vue-onoffs",
+  "version": "1.0.1",
   "description": "基于vue的开关组件库",
   "author": "weiran",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "npm-check-updates": "^2.15.0",
+    "nrm": "^1.0.2",
     "vue": "^2.5.2"
   },
   "devDependencies": {
@@ -53,6 +55,7 @@
     "type": "git",
     "url": "git@github.com:ngaiwe/vue-onoff.git"
   },
+  "main": "dist/vue-onoffs.min.js",
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"

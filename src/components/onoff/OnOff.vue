@@ -50,6 +50,7 @@
     }
 
     export default {
+        name: 'OnOff',
         props: ['value'],
         empty,
         Logic,

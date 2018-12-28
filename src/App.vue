@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import OnOff from '@/components/OnOff'
+  import OnOff from '@/components/onoff/OnOff'
 
   let components = {
     OnOff

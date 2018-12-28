@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import '@/css/reset.css'
+import OnOff from '@/components/onoff/OnOff.vue'
 
 Vue.config.productionTip = false
 
@@ -12,3 +13,7 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+export {
+  OnOff
+}
