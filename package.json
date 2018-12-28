@@ -1,6 +1,6 @@
 {
   "name": "vue-onoffs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于vue的开关组件库",
   "author": "weiran",
   "private": false,
