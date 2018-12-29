@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "npm-check-updates": "^2.15.0",
-    "nrm": "^1.0.2",
     "vue": "^2.5.2"
   },
   "devDependencies": {
@@ -56,6 +55,7 @@
     "url": "git@github.com:ngaiwe/vue-onoff.git"
   },
   "main": "dist/vue-onoffs.min.js",
+  "keywords": ["vue", "vue-onoffs", "onoff", "onoffs", "开关"],
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
