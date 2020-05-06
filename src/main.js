@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import '@/css/reset.css'
 import OnOff from '@/components/onoff/OnOff.vue'
-
+// 345
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
