@@ -1,7 +1,14 @@
+<!--
+ * @Author       : weiran92@xdf.cn
+ * @Date         : 2020-05-06 13:56:57
+ * @LastEditors  : weiran92@xdf.cn
+ * @LastEditTime : 2020-05-06 13:57:39
+ * @Description  : 描述信息
+ -->
 <template>
   <div id="app">
     <div class="defaultBox">
-      <h2>开关切换</h2>
+      <h2>开关切换1</h2>
       <div class="defaultOnoffBox">
         <OnOff :value="onOff" @change="changeOnOff"/>
       </div>
